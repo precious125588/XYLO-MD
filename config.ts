@@ -19,18 +19,27 @@ interface ConfigCache {
 const defaults: Record<string, any> = {
   PREFIX: '.',
   MODE: 'public',
-  CREATOR: '2349133354644',
-  OWNER_NUMBERS: ['2349133354644'],
-  BOT_NAME: '𝐗𝐘𝐋𝐎-𝐌𝐃',
-  FOOTER: '© 𝒑𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 𝑫𝒂𝒗𝒊𝒅𝑿𝑻𝒆𝒄𝒉',
+
+  // 👑 YOUR DETAILS
+  CREATOR: '2349068551055',
+  OWNER_NUMBERS: ['2349068551055'],
+
+  // 🤖 BOT BRANDING
+  BOT_NAME: '𝗣𝗿𝗲𝗰𝗶𝗼𝘂𝘀𝗫 𝗕𝗼𝘁',
+  FOOTER: '© 𝑷𝑹𝑬𝑪𝑰𝑶𝑼𝑺 x',
+
+  // ⚙️ FEATURES
   ANTIDELETE_MODE: 'off',
   ANTIDELETE_SCOPE: 'all',
   ANTIDSTATUS_MODE: 'off',
+
   AUTOVIEW_STATUS: false,
   AUTOLIKE_STATUS: false,
   AUTOREACT: false,
   CUSTOM_REACT_EMOJIS: '',
+
   MENU_THEME: 'random',
+
   ALWAYS_ONLINE: false,
   AUTO_TYPING: false,
   AUTO_RECORDING: false
